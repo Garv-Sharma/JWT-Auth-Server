@@ -6,10 +6,10 @@ var options = {
     // uri: "http://localhost:3000/getToken",
     uri: "http://localhost:3000/logout",
     // uri: "http://localhost:3000/createUser",
-    headers: {
-        "Content-Type":"application/json",
-        "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiR2FydiBTaGFybWEiLCJpYXQiOjE2Mjg5NDY0MTYsImV4cCI6MTYyODk0NjQ0Nn0.cdnWdcASx9KPqn-tN6SqeDyCjLHJlYexgQDdbIV-Qm4"
-    },
+    // headers: {
+    //     "Content-Type":"application/json",
+    //     "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiR2FydiBTaGFybWEiLCJpYXQiOjE2Mjg5NDY0MTYsImV4cCI6MTYyODk0NjQ0Nn0.cdnWdcASx9KPqn-tN6SqeDyCjLHJlYexgQDdbIV-Qm4"
+    // },
     // body: {
     //     "name": "John Doe",
     //     "gender": "Male",

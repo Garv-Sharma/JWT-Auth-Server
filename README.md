@@ -1,6 +1,6 @@
 ABOUT:
 * This is a sample implementation of a JWT based authorization server which grants authenticated users a token to access system resources (or endpoints) & make requests. It uses 2 JSON web tokens - accessToken & refreshToken
-* When a user logs in both tokens are given to the user (user authentication using login credentials is not implemented here)
+* When a user logs in, both tokens are given to the user (user authentication using login credentials is not implemented here)
 * For making requests to the server (e.g.: /searchUsers), the user sends accessToken as authorization header.
 * The accessToken has a short expiry duration after which it will become invalid. Logged in users will use the refreshToken to generate new accessToken for themselves to get access. The accessToken is not stored on the server but the refreshToken is stored on the server. It does not expire but will be deleted from server when user logs out so that logged out user cannot use their refreshToken to generate any more accessToken. Hence user (or any unexpected requestor having any token will not be able to access resources) after logging out.
 * The Secret Key for signing the JWT is generated using the 'crypto' library
